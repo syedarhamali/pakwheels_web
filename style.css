@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    justify-content: center;
+    width: 100%;
+    height: 510px;
+    background-image: linear-gradient(to bottom,black,black,#01326b) !important ;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#mini_div{
+    font-size: 14px;
+    color: white;
+    padding: 7px;
+    border-bottom: 1px solid #302f2e;
+}
+.main_div{
+    padding: 0 5%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding-top: 1%;
+    justify-content: center;
+}
+.list ul li a {
+    padding: 16px 20px;
+}
+.logo > a > img{
+    margin-right: 30px;
+    height: 50px;
+    width: 90px !important;
+}
+.list ul li{
+    display: inline-block;
+}
+#btn{
+    pointer-events: none;
+    margin-left: 50px;
+    color: white !important;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 35px;
+    background-color: #b73439 !important;
+}
+.list li a:hover{
+    font-style: bold !important;
+    transition: 0.5s;
+    background-color: white;
+    color: #b73439;
+}
+
+.dropdown_list:hover .dropdown {
+    display: block;
+    background-color: white;
+}
+.dropdown_list li:hover { 
+    color: #518ecb;
+} 
+.dropdown{
+    position: absolute;
+    top: 96px;
+    width: 250px;
+    display: none;
+    padding: 26px 12px;
+    border-bottom: 3px solid #b73439;
+    border-right: 2px solid #302f2e;
+}
+.dropdown li { 
+    color: #434343;
+    display: inline-block;
+    width: 100%;
+    margin: 8px;
+    letter-spacing: 1px;
+}
+.head_txt h1{
+    color: white;
+    word-spacing: 5px;
+    font-size: 38px;
+}
+.second{
+    font-size: 19px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 120px ;
+    justify-content: center;
+}
+.icons{
+    padding-right: 15px;
+}
+.para{
+    padding-top: 4px;
+    font-size: 13px;
+    padding-left: 32px;
+}
+.search_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.input_box{
+    outline: none;
+    width: 350px;
+    padding: 19px 10px;
+}
+
+.box select {
+    color: #302f2e;
+    margin-left: -0.5px;
+    padding: 19px 0px;
+    width: 200px;
+    border: none;
+    outline: none;
+}
+
+.btn2{
+      padding: 16.5px 20px;
+      background-color: #3eb549;
+}
