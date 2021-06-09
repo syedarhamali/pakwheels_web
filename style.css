@@ -122,8 +122,26 @@ a{
     border: none;
     outline: none;
 }
-
 .btn2{
       padding: 16.5px 20px;
       background-color: #3eb549;
 }
+.div_3{
+    position: relative;
+    height: 17%;
+}
+.filter{
+    width: 140px;
+    padding: 4px 8px ;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.button-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
